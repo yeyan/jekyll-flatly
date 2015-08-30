@@ -1,0 +1,19 @@
+{
+  "name": "dependencies",
+  "version": "0.0.0",
+  "authors": [
+    "Ye Yan <haskell.ye.yan@gmail.com>"
+  ],
+  "description": "javascript dependencies management",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

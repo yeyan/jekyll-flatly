@@ -1,0 +1,44 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "bootstrap", "bootswatch";
+
+.site-banner {
+    padding-top: 60px;
+    width:100%;
+    height: 220px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+.site-content {
+    padding-top: 20px;
+
+    .page-header {
+        border-bottom: 1px solid #EEE;
+    }
+
+    .site-pagination {
+        padding-top: 20px;
+    }
+}
+
+.site-footer {
+    margin-top: 20px;
+    height: 30px;
+}
+
+.icon {
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $gray;
+        }
+    }
+}
