@@ -7,6 +7,9 @@
     padding-top: 60px;
     width:100%;
     height: 220px;
+    @media (max-width: $screen-xs) {
+        height: 100px;
+    }
     overflow: hidden;
     img {
         width: 100%;
@@ -14,7 +17,6 @@
 }
 
 .site-content {
-    padding-top: 20px;
 
     .page-header {
         border-bottom: 1px solid #EEE;
@@ -23,6 +25,10 @@
     .site-pagination {
         padding-top: 20px;
     }
+}
+
+.site-side-bar {
+    padding-top: 20px;
 }
 
 .site-footer {
