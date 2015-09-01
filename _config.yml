@@ -11,7 +11,8 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  yeyan
 
 # Build settings
-markdown: kramdown
+markdown: Redcarpet #kramdown
 plugins: _plugins
 paginate: 10 
 exclude: ["gulp"]
+fenced_code_blocks: true
